@@ -1,0 +1,50 @@
+{
+  "@ant-design/icons-svg": {
+    "file": "upstream/@ant-design__icons-svg__LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/LICENSE",
+    "basis": "Official repository license; npm package declares MIT."
+  },
+  "is-mobile": {
+    "file": "upstream/is-mobile__LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/juliangruber/is-mobile/main/LICENSE",
+    "basis": "Official repository license; npm package declares MIT."
+  },
+  "gsap": {
+    "file": "upstream/GSAP-standard-license.txt",
+    "source": "https://gsap.com/community/standard-license/",
+    "basis": "The installed package identifies the GSAP Standard license. Original bundled headers are retained."
+  },
+  "@gsap/react": {
+    "file": "upstream/GSAP-standard-license.txt",
+    "source": "https://gsap.com/community/standard-license/",
+    "basis": "The installed package identifies the GSAP Standard license. Original bundled headers are retained."
+  },
+  "@antv/algorithm": {
+    "file": "upstream/MIT-terms.txt",
+    "attribution": "upstream/@antv__algorithm__attribution.json",
+    "source": {
+      "type": "git",
+      "url": "https://github.com/antvis/algorithm"
+    },
+    "basis": "MIT declaration and attribution from the exact installed npm package. Package and current upstream tree omit a separate license file; common MIT permission/warranty terms supplied."
+  },
+  "@antv/event-emitter": {
+    "file": "upstream/MIT-terms.txt",
+    "attribution": "upstream/@antv__event-emitter__attribution.json",
+    "source": {
+      "type": "git",
+      "url": "git@github.com:antvis/event-emitter.git"
+    },
+    "basis": "MIT declaration and attribution from the exact installed npm package. Package and current upstream tree omit a separate license file; common MIT permission/warranty terms supplied."
+  },
+  "@antv/g-lite": {
+    "file": "upstream/MIT-terms.txt",
+    "attribution": "upstream/@antv__g-lite__attribution.json",
+    "source": {
+      "type": "git",
+      "url": "git+https://github.com/antvis/g.git",
+      "directory": "packages/g-lite"
+    },
+    "basis": "MIT declaration and attribution from the exact installed npm package. Package and current upstream tree omit a separate license file; common MIT permission/warranty terms supplied."
+  }
+}

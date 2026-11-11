@@ -1,0 +1,12 @@
+{
+  "name": "@antv/g-lite",
+  "version": "2.7.2",
+  "license": "MIT",
+  "author": "https://github.com/orgs/antvis/people",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antvis/g.git",
+    "directory": "packages/g-lite"
+  },
+  "homepage": "https://github.com/antvis/g#readme"
+}

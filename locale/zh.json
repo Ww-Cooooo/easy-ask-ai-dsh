@@ -1,0 +1,10 @@
+{
+  "meta": { "title": "Easy Ask AI DSH", "description": "整理需求、对照版本，把认可的范围交给指定会话执行。" },
+  "panel": "Easy Ask AI DSH",
+  "title": "把下一步要做的事说清楚",
+  "intro": "原作、需求和本次执行的版本，放在一起核对。",
+  "probe": "检查保存",
+  "loading": "正在读取…",
+  "saved": "已保存",
+  "failed": "未能保存"
+}

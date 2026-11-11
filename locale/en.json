@@ -1,0 +1,10 @@
+{
+  "meta": { "title": "Easy Ask AI DSH", "description": "Prepare requirements, compare revisions and send an approved scope to a selected session." },
+  "panel": "Easy Ask AI DSH",
+  "title": "Make the next task clear",
+  "intro": "Keep sources, requirements and the version to execute together.",
+  "probe": "Check saving",
+  "loading": "Loading…",
+  "saved": "Saved",
+  "failed": "Could not save"
+}

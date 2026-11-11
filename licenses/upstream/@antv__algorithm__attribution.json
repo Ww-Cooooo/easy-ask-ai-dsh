@@ -1,0 +1,11 @@
+{
+  "name": "@antv/algorithm",
+  "version": "0.1.26",
+  "license": "MIT",
+  "author": "https://github.com/orgs/antvis/people",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antvis/algorithm"
+  },
+  "homepage": "https://g6.antv.vision"
+}
