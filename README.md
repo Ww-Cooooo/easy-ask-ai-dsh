@@ -2,7 +2,7 @@
 
 > **本插件基于 [Easy Ask AI Skill](https://github.com/Ww-Cooooo/easy-ask-ai) 改编，专为 DeepSeek Harness 开发。**
 >
-> **其他 Agent 用户：**可[安装原版 Easy Ask AI Skill](https://github.com/Ww-Cooooo/easy-ask-ai#安装与开始使用)，使用 Prompt Ready 与 Get Clear（需支持 Skill；不含 Harness 原生侧栏）。
+> **其他 Agent 用户：** 可[安装原版 Easy Ask AI Skill](https://github.com/Ww-Cooooo/easy-ask-ai#安装与开始使用)，使用 Prompt Ready 与 Get Clear（需支持 Skill；不含 Harness 原生侧栏）。
 
 **不会写提示词，也能把需求一步步说清楚。**
 
