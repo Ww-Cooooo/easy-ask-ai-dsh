@@ -38,7 +38,20 @@
 - 只修改本项目条目；不手工改上游生成的目录页面或其他插件。截图来源由本仓库的 `screenshots.json` 和所引用的文件维护。
 - PR 合并后还要确认主分支条目、生成目录和实际安装来源。检查通过、PR 合并、客户端可见分别记录，不互相代替。
 
-核查结果：PR 仍为 OPEN；上游主分支尚无本条目。最近一次 Submission gate 的失败原因是检查当时仓库未满一天；截至本次核查已超过一天，但尚未取得新的通过或合并回执。规则说明旧结论会自动复查，无需空提交或重复投稿。
+### 投稿复核：2026-11-12 23:02（北京时间）
+
+[PR #14286](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/14286) 仍为 OPEN，最新投稿提交为 `5f1545a38cd924902c1d001ef624694c959fe54d`。没有合并冲突，也没有评审意见、评论或逐行修改要求；上游主分支尚无本条目，因此仍是**已投稿、未收录**。
+
+| 检查 | 最新结果 | 证据 |
+| --- | --- | --- |
+| `check` | SUCCESS，11 月 12 日 12:01:41 完成 | [检查记录](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/actions/runs/43149756037/job/130955892303) |
+| `Submission gate` | FAILURE，停留在 11 月 12 日 12:02:41 的旧结果；唯一未通过项是检查当时仓库仅创建 0.8 天 | [准入结果](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/runs/130963653219)、[对应工作流日志](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/actions/runs/43152061585/job/130963305271) |
+
+仓库创建于 2026-11-11 17:25:55，已在 11 月 12 日 17:25:55 达到一天要求。PR 正文的年龄勾选项已据此更新，但这不代表托管检查已经刷新或审核通过。上述工作流的 5 条 annotations 中，只有仓库年龄这一项实质未通过；另两条是同次失败的汇总与退出码，另外两条是 Node.js 与 Ubuntu 运行环境提醒。
+
+**为何满一天后仍显示失败：** 当前上游[自动复查实现](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/blob/b85732b69d498a216baf490fb811774dcb6771d9/.github/workflows/regate.yml#L213-L224) 对年龄类失败设有 24 小时冷却期，从上次 gate 完成时间计算。计划扫描为每 6 小时一次（北京时间 02:19、08:19、14:19、20:19），每轮最多重跑 20 项。仅按这一复查路径推算，本条目要到 **11 月 13 日 12:02:41** 后才满足冷却条件，随后最近的计划扫描是 14:19；运行延迟、队列及规则变动都可能改变实际时间，不能据此承诺通过或合并时间。[11 月 12 日晚的扫描](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/actions/runs/43218348119) 已成功完成，但本条目的 gate 尚未刷新。
+
+本次未发现需要修复插件代码、安装包或市场条目的新增报错；实际修正为 PR 正文中过期的年龄说明。后续待上游复查后回读最新 gate；通过后仍需分别核对 PR 合并、主分支条目及目录可见性。无需通过空提交、重复投稿或关闭后重开 PR 来刷新状态，也不把修改正文当作已触发重跑的回执。
 
 规则与更新方式见 [当前贡献指南](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/blob/main/contributing.md)。
 
@@ -74,3 +87,5 @@
 ## 本次维护记录
 
 2026-11-12：对照公开仓库、Release、作者投稿及展示记录建立本清单，并从 README 提供入口。本次仅维护文档；未新增功能版本、重打包、覆盖附件、重复投稿或提交支持表。
+
+2026-11-12 23:02 复核：核对当前投稿提交、两项检查、5 条 annotations、工作流日志及自动复查条件，修正现有 PR 的年龄勾选项和说明。本次只更新投稿正文与本页记录，保留 README 开头的原版 Skill 来源与其他 Agent 安装链接；安装版本仍为 v0.4.10，市场投稿提交不变。
