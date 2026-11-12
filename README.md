@@ -90,3 +90,7 @@ Host 服务和 Agent 工具共用业务实现；Client 使用 Harness 原生 Rea
 测试覆盖版本、来源、认可、会话隔离、投递重试、结果评价与进度。真实模型演示、自动化测试、历史记录回放的范围分别列在 [VALIDATION.md](VALIDATION.md)。欢迎通过 [Issues](https://github.com/Ww-Cooooo/easy-ask-ai-dsh/issues) 提交复现步骤；请先移除密钥、私人聊天和个人资料。
 
 本项目代码采用 [MIT](LICENSE)。方法来源及各依赖、字体的许可见 [NOTICE.md](NOTICE.md)；GSAP 使用其 Standard License，不能将所有打包依赖统称 MIT。
+
+## 发布与维护
+
+所有已核实的发布入口、市场投稿状态和后续同步步骤集中在 [发布渠道与同步维护](RELEASE-CHANNELS.md)。修改介绍、安装包或截图时，请按清单逐项检查，并记录各处的实际更新结果。
