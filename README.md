@@ -1,5 +1,9 @@
 # Easy Ask AI DSH
 
+> **本插件基于 [Easy Ask AI Skill](https://github.com/Ww-Cooooo/easy-ask-ai) 改编，专为 DeepSeek Harness 开发。**
+>
+> **其他 Agent 用户：**可[安装原版 Easy Ask AI Skill](https://github.com/Ww-Cooooo/easy-ask-ai#安装与开始使用)，使用 Prompt Ready 与 Get Clear（需支持 Skill；不含 Harness 原生侧栏）。
+
 **不会写提示词，也能把需求一步步说清楚。**
 
 “做一个好看、高大上的页面。”拿到初稿后，又只说得出“不好看”“不够高级”。Easy Ask AI DSH 帮你把这些模糊的想法变成具体要求：开工前用 **Prompt Ready** 问清需求，有了成果后用 **Get Clear** 问清怎么改，整理成方案，等你确认后再动手。你负责表达感受和选择，不必先学会专业术语。
@@ -25,7 +29,7 @@
 
 安装可能联网取得依赖。如果管理器提示需要重启，请保存输入后按提示重启；更新时安装新版本包，工作区记录继续保留。命令行的独立测试配置安装方法见 [INSTALL.md](docs/INSTALL.md)。
 
-**想在其他 Agent 中使用？** 原版 [Easy Ask AI Skill](https://github.com/Ww-Cooooo/easy-ask-ai) 提供 Prompt Ready 和 Get Clear，可按目标 Agent 的技能机制安装；[查看 Skill 安装与接入说明](https://github.com/Ww-Cooooo/easy-ask-ai#安装与开始使用)。它与本插件独立分发，不含 Harness 原生侧栏；安装本插件也不要求先装 Skill。
+本插件与原版 Skill 独立安装、更新；使用本插件不要求先装 Skill。
 
 ## Prompt Ready：把“许愿式”需求变成执行方案
 

@@ -2,6 +2,8 @@
 
 [返回项目首页](../README.md)
 
+本页介绍基于 [Easy Ask AI Skill](https://github.com/Ww-Cooooo/easy-ask-ai) 改编的 Harness 插件。**在其他 Agent 中使用，请[安装原版 Skill](https://github.com/Ww-Cooooo/easy-ask-ai#安装与开始使用)**（需支持 Skill；不含 Harness 原生侧栏）。
+
 这次演示在实际 DeepSeek Harness 中完成：DeepSeek 提问，使用者亲自回答、核对方案并评价成果。材料是虚构报名页，无真实报名数据。下面只摘录理解这个流程需要的内容，不公开完整会话日志或私人工作区。
 
 ## 从“不够正式”问清方向

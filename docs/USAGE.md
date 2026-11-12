@@ -2,6 +2,8 @@
 
 [返回项目首页](../README.md)
 
+本页介绍基于 [Easy Ask AI Skill](https://github.com/Ww-Cooooo/easy-ask-ai) 改编的 Harness 插件。**在其他 Agent 中使用，请[安装原版 Skill](https://github.com/Ww-Cooooo/easy-ask-ai#安装与开始使用)**（需支持 Skill；不含 Harness 原生侧栏）。
+
 ## 修改已有成果
 
 

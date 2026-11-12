@@ -2,6 +2,8 @@
 
 [返回项目首页](../README.md)
 
+本页介绍基于 [Easy Ask AI Skill](https://github.com/Ww-Cooooo/easy-ask-ai) 改编的 Harness 插件。**在其他 Agent 中使用，请[安装原版 Skill](https://github.com/Ww-Cooooo/easy-ask-ai#安装与开始使用)**（需支持 Skill；不含 Harness 原生侧栏）。
+
 已验证目标为 Windows、DeepSeek Harness 0.2.2-rc.1。安装包已经编译，普通用户不需要构建源码。模型、账号和工作区由 Harness 配置；插件不附送模型或 Token。
 
 ## 常用客户端
